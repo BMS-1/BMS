@@ -4,5 +4,5 @@ print("hello vatsal")
 
 #####################
 
-print(" AA vastu bhai a lakhii")
+print(" AA line bhai a lakhi")
 print("bmsbmsbmsbms")
