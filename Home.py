@@ -4,4 +4,4 @@ print("hello vatsal")
 
 #####################
 
-print(" AA vastu bhai a lakhi")
+print(" AA vastu bhai a lakhii")
