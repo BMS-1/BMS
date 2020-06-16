@@ -1,6 +1,5 @@
 from tkinter import *
-import numpy as np
-import cv2
+
 
 def gotobollywood(self):
     print("kashyap")
@@ -34,7 +33,7 @@ class home:
 
         root.title("BOOK MY SHOW")
         mylabel=Label(root,text="BOOK MY SHOW",font=184)
-        mylabel.pack()
+        mylabel.grid(row=0,column=3,columnspan=2)
         menu=Menu(root)
         root.config(menu=menu)
 
@@ -76,6 +75,27 @@ class home:
 root = Tk()
 
 start=home()
+
+root.geometry("810x450")
+
+photo1= PhotoImage(file="booking.gif")
+lab1=Label(root,image=photo1)
+lab1.grid(row=1, column=0)
+
+b1=Button(root,text="booking").grid(row=0, column=0)
+
+photo2=PhotoImage(file="offer.gif")
+lab2=Label(root,image=photo2)
+lab2.grid(row=1, column=7)
+
+b2=Button(root,text="offer").grid(row=0, column=7)
+
+photo3=PhotoImage(file="trending.gif")
+lab3= Label(root, image=photo3)
+lab3.grid(row=8,column=3,columnspan=2)
+
+b3=Button(root,text="trending").grid(row=7,column=3,columnspan=2)
+
 
 
 
