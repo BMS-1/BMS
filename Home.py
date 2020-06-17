@@ -1,4 +1,8 @@
 from tkinter import *
+from mehsana import gotomehsana
+
+
+
 
 
 def gotobollywood(self):
@@ -7,9 +11,10 @@ def gotohollywood(self):
     print("urmil")
 
 def gotoahmedabad(self):
-    print ( "urmil" )
+     print("")
+
 def gotomeshana(self):
-     print ( "urmil" )
+    print("kashyap")
 
 def gotoenglish(self):
      print ( "urmil" )
@@ -70,27 +75,25 @@ class home:
 
 
 
-
-
 root = Tk()
 
 start=home()
 
 root.geometry("810x450")
 
-photo1= PhotoImage(file="booking.gif")
+photo1= PhotoImage(file="1.png")
 lab1=Label(root,image=photo1)
 lab1.grid(row=1, column=0)
 
 b1=Button(root,text="booking").grid(row=0, column=0)
 
-photo2=PhotoImage(file="offer.gif")
+photo2=PhotoImage(file="1.png")
 lab2=Label(root,image=photo2)
 lab2.grid(row=1, column=7)
 
 b2=Button(root,text="offer").grid(row=0, column=7)
 
-photo3=PhotoImage(file="trending.gif")
+photo3=PhotoImage(file="1.png")
 lab3= Label(root, image=photo3)
 lab3.grid(row=8,column=3,columnspan=2)
 
