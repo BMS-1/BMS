@@ -5,13 +5,13 @@ def gotobookingform():
     print("kashyap")
 
 
-class mehsana:
+class ahmedabad:
     def __init__(self):
         root.geometry("715x500")
-        root.title("mehsana")
+        root.title("ahmedabad")
         l1=LabelFrame(root,text="",padx=50,pady=10,bg="black")
         l1.grid(row=0,column=1)
-        l2=Label(l1,text="mehsana",fg="black",bg="gold",padx=30)
+        l2=Label(l1,text="ahmedabad",fg="black",bg="gold",padx=30)
         l2.grid(row=0,column=2)
         l3 = Label(root, text="             ",bg="royal blue", padx=30,)
         l3.grid(row=0, column=0)
@@ -24,11 +24,11 @@ class mehsana:
         l21 = Label(l20, text="book my show", bg="gold", padx=40, pady=6)
         l21.grid(row=2, column=0)
 
-        l5 = Label(l6, text=" wide angle", bg="gold", padx=30, pady=6)
+        l5 = Label(l6, text=" city gold", bg="gold", padx=30, pady=6)
         l5.grid(row=2, column=0)
       #  l7 = LabelFrame(root, text="", padx=155, pady=50, bg="grey")
        # l7.grid(row=4, column=1)
-        l8= Label(root, text="wide angle ,mehsana"+"\n"+"rating=4/5", fg="black", bg="plum2",padx=30)
+        l8= Label(root, text="city gold ,driving road"+"\n"+"rating=4/5", fg="black", bg="plum2",padx=30)
         l8.grid(row=4,column=1)
         l9 = Label(root, text="             ", bg="royal blue", padx=20, pady=5)
         l9.grid(row=5, column=0)
@@ -40,12 +40,12 @@ class mehsana:
         l18.grid(row=9, column=1,columnspan=16)
         l19 = Label(l18, text="book my show", bg="gold", padx=40, pady=6)
         l19.grid(row=2, column=0)
-        l13 = Label(l12, text=" yoro club",bg="gold", padx=30, pady=6)
+        l13 = Label(l12, text=" PVR    ",bg="gold", padx=30, pady=6)
         l13.grid(row=9, column=0)
         l16 = Label(root, text="             ", bg="royal blue", padx=30, )
         l16.grid(row=8, column=0)
 
-        l14 = Label(root, text="yoro club,mehsana" + "\n" + "rating=4/5", fg="black", bg="plum2", padx=30)
+        l14 = Label(root, text="PVR club,mehsana" + "\n" + "rating=4/5", fg="black", bg="plum2", padx=30)
         l14.grid(row=10, column=1)
 
         b2 = Button(root, text="Book your ticket", bg="black", fg="white", command=gotobookingform)
@@ -64,7 +64,7 @@ class mehsana:
 
 
 root=Tk()
-meh=mehsana()
+meh=ahmedabad()
 photo = PhotoImage(file="1.png")
 label = Label(image=photo,bg="black",width=200,height=130)
 label.grid(row=4,column=0,rowspan=3)
