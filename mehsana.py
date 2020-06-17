@@ -28,7 +28,7 @@ class mehsana:
         l5.grid(row=2, column=0)
       #  l7 = LabelFrame(root, text="", padx=155, pady=50, bg="grey")
        # l7.grid(row=4, column=1)
-        l8= Label(root, text="wide anglu ,mehsana"+"\n"+"rating=4/5", fg="black", bg="plum2",padx=30)
+        l8= Label(root, text="wide angl ,mehsana"+"\n"+"rating=4/5", fg="black", bg="plum2",padx=30)
         l8.grid(row=4,column=1)
         l9 = Label(root, text="             ", bg="royal blue", padx=20, pady=5)
         l9.grid(row=5, column=0)
