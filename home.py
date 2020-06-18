@@ -50,7 +50,7 @@ class home:
         mylabel = Label(root, text="BOOK MY SHOW", font=184)
         mylabel.grid(row=0, column=3, columnspan=2)
         menu = Menu(root)
-        root.config(menu=menu)
+        root.config(menu=menu)  
 
         subMenu = Menu(menu)
         menu.add_cascade(label="Movies", menu=subMenu)
